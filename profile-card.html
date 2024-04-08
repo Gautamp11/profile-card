@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .profile-card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        max-width: 300px;
+      }
+
+      .profile-picture {
+        width: 100%;
+        height: auto;
+      }
+
+      .profile-info {
+        padding: 20px;
+      }
+
+      .name {
+        margin-top: 0;
+        font-size: 1.5em;
+        color: #333;
+      }
+
+      .bio,
+      .location {
+        margin: 5px 0;
+        font-size: 1em;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-card">
+      <img src="image.png" alt="Profile Picture" class="profile-picture" />
+      <div class="profile-info">
+        <h1 class="name">Gautam Styles</h1>
+        <p class="bio">Web Developer</p>
+        <p class="location">India</p>
+      </div>
+    </div>
+  </body>
+</html>
